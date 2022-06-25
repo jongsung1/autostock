@@ -8,6 +8,7 @@ class Ui_class():
 
         self.app = QApplication(sys.argv)
 
-        Kiwoom()
+        self.kiwoom = Kiwoom()
 
+        ### 실행 후 종료 안되도록
         self.app.exec_()
